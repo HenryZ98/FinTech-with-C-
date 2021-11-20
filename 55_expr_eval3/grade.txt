@@ -1,0 +1,22 @@
+Grading at 10/14/2021:01:25:31.524689
+For commit ID da0e3916da32be2391a090cc8222c8e5e24e40cf
+Grading at Wed Oct 13 21:25:26 EDT 2021
+Compiling code
+The code compiled.
+---------------------
+Test case 1
+  - Valgrind was clean (no errors, no memory leaks)
+Your file matched the expected output
+Testcase passed 
+---------------------
+Test case 2
+  - Valgrind was clean (no errors, no memory leaks)
+Your file matched the expected output
+Testcase passed 
+---------------------
+Test case 3
+  - Valgrind was clean (no errors, no memory leaks)
+Your file matched the expected output
+Testcase passed 
+
+Overall Grade: A
