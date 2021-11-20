@@ -1,0 +1,26 @@
+Grading at 08/26/2021:19:45:50.924657
+For commit ID 2a1e58d5a340daf503bd393599170276fc3cd3ec
+Grading at Thu Aug 26 15:45:50 EDT 2021
+Attempting to compile large_ksum.c
+Running code with your main
+Here is what you printed
+The index of the largest K sum is 10
+Removing your main() and replacing it with our own to run more tests...
+Your file matched the expected output
+Correct
+Your file matched the expected output
+Correct
+Your file matched the expected output
+Correct
+Your file matched the expected output
+Correct
+Your file matched the expected output
+Correct
+Your file matched the expected output
+Correct
+Your file matched the expected output
+Correct
+Your file matched the expected output
+Correct
+
+Overall Grade: A

@@ -1,0 +1,68 @@
+For this assignment, you are going to write the program
+"cmp_doubles". This program takes 4 command line arguments. The first
+two are doubles to be compared to each other (called num1 and num2 in
+the rest of this README). The third is the tolerance type, which is
+one of the following words: 
+
+  abs
+  pct1
+  pct2
+
+which describe how to interpret the 4th parameter (as explained
+below). The fourth parameter is also a double, and is the tolerance
+within which the first two numbers are considered equal to each
+other. 
+
+If the wrong number of parameters are given, any of the numeric
+arguments cannot be parsed as doubles (by strtod), or the third
+parameter is not one of the words above, the program should print a
+meaningful error message and exit with a failure status.
+
+This tolerance is interpeted in one of three ways based on the third
+parameter as follows: 
+
+  abs:  the tolerance is absolute, and the numbers are considered
+        equal if (and only if) num2 is in the range
+	[num1 - tolerance, num1 + tolerance] 
+  pct1: the tolerance is considered a percentage of num1, and the
+        numbers are considered equal if (and only if) num2 is in the
+        range 
+	[num1 - num1 * tolerance/100, num1 + num1 * tolerance/100]
+  pct2: the tolerance is considered a percentage of num2, and the
+        numbers are considered equal if (and only if) num1 is in the
+        range 
+	[num2 - num2 * tolerance/100, num2 + num2 * tolerance/100]
+
+The program should print a single line with one of the following
+words:
+
+less
+equal
+greater
+
+It should print "equal" whenever the numbers are considered equal
+within the specified tolerance as described above. It should print
+"less" whenever num1 is "less" than num2 (and not within the tolerance
+of equality) and "greater" otherwise.
+
+For example
+
+./cmp_doubles 100 101 abs 1
+
+would print "equal" as 100 and 101 are considered equal within a tolerance
+of 1. However,
+
+./cmp_doubles 100 101 abs 0.5
+
+would print "less" as the numbers are not within an absolute tolerance
+of 0.5, and 100 < 101.
+
+Likewise
+
+./cmp_doubles 200 204 pct1 2
+
+would print "equal" as pct1 makes the tolerance 2% of the first
+number, so anything in the range 196 to 204 is treated as equal.
+
+You should create a source file called cmp_doubles.c. We have provided
+a Makefile that builds it into the binary cmp_doubles.

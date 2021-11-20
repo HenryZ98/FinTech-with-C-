@@ -1,0 +1,40 @@
+Grading at 09/06/2021:21:50:57.948550
+For commit ID b9cbd35d5d6d7798657a39dfbb3c31e83f095610
+Grading at Mon Sep  6 17:50:21 EDT 2021
+Attempting to compile:
+rm -f *~ cmp_doubles
+gcc -std=gnu99 -Wall -Werror -pedantic -o cmp_doubles cmp_doubles.c
+Test case 1
+Your program successfully indicated a failure case
+Test case 2
+Your program successfully indicated a failure case
+Test case 3
+Your program successfully indicated a failure case
+Test case 4
+Your program successfully indicated a failure case
+Test case 5
+Your program successfully indicated a failure case
+Test case 6
+Your program successfully indicated a failure case
+Test case 7
+Your program successfully indicated a failure case
+Test case 8
+Your file matched the expected output
+Test case 9
+Your file matched the expected output
+Test case 10
+Your file matched the expected output
+Test case 11
+Your file matched the expected output
+Test case 12
+Your file matched the expected output
+Test case 13
+Your file matched the expected output
+Test case 14
+Your file matched the expected output
+Test case 15
+Your file matched the expected output
+Test case 16
+Your file matched the expected output
+
+Overall Grade: A

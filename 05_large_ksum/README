@@ -1,0 +1,40 @@
+For this program, you are going to write the function:
+
+size_t findLargestKSum(int * array, size_t n_elem, size_t k)
+
+This function takes three parameters:
+  - array, which is an array of integers
+  - n_elem, which is the number of elements in the array
+  - k, which is how many elements to sum together
+
+This function searches for the k consecutive elements whose sum is the
+largest and returns the index where the k elements begin.
+
+If k > n_elem, then specify there is no answer by returning the
+maximum value of a size_t.
+
+  (size_t)-1
+
+which casts the integer -1 to an unsigned integer of type size_t.
+
+To help understand this problem conceptually, one example of why you
+might use this would be if the data in the array represents monthly
+profits (each entry is the net profit for one month). You want to find
+the K consecutive months which together have the highest total
+profit. 
+
+This function returns the index of the first element of the sequence
+it found (e.g., the first "month" of the most profitable time in the
+above example). 
+
+As a concrete example, if your data were
+
+  5 8 -1 3 9 2 4 19 -3 6 9 12 11 -3 5
+
+and k were 3, then this function should return 10, as the element at
+index 10 is 9, which starts the highest summing three element sequence
+9 + 12 + 11 = 32.
+
+In the file large_ksum.c, you will see a function you should write and
+a main with this test case. Of course, you should write several more
+test cases of your own!
