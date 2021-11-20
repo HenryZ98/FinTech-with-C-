@@ -1,0 +1,32 @@
+For this assignment, you will practice black box testing skils. 
+
+First a question: How many days are there between January 1 and March
+31? If you answered 'It depends,' you are on the right track. Getting
+this correct would be important for, say, calculating interest
+compounded daily. 
+
+Tasks
+
+1.  Investigate the leap year rules for the Gregorian calendar.
+
+2.  Create test cases to comprehensively test the rules. Write each
+    test case as a line containing a four digit year (e.g. '2020'),
+    the expected test result ('true', 'false',) and a sentence
+    explaining your rationale for the test case.  
+
+All test cases should follow this format: 
+
+year, expected; rationale.
+
+Here is one example test case:
+
+1997, false; Odd years are not leap years. 
+
+Create your list of test cases, one per line, in a file 'tests.txt'.
+
+3.  Once you have developed your test cases and the reasoning behind
+    each test case, run 'run_all.sh', which will apply your test cases
+    to a set of correct leap year implementation. A complete and
+    correct set of test cases will pass.
+    
+4.  You will submit 'tests.txt' for this assignment.

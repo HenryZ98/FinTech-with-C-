@@ -1,0 +1,4 @@
+1997, false; Odd years are not leap years.
+1900, false; Cannot divide by 400.
+0, true; special case. 
+-4, true; wrong input.

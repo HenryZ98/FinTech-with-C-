@@ -1,0 +1,115 @@
+As always, read and understand Chapters 10 and 11, then answer these
+questions in "answers.txt".
+
+1.  Suppose you declare a string literal without the "const", but the
+    code still compiled. Then you wrote the following code:
+
+    char * s = "A string literal";
+    *s = 'B';  
+
+    What would happen when this code executed?
+
+    A.  s would now point at the string "B string literal".
+    B.  s would now point at the string "B".
+    C.  s would now point "A string literalB".
+    D.  The program would crash.
+
+2.  Suppose we had a function readStringFromUser(), which reads a
+    string from the user, and we do:
+
+    char * s = readStringFromUser();
+    int x = (int)s;
+    printf("%d\n", x);
+
+    You compile and run the code, and the user types in "42".
+
+    Which of the following will it print?
+
+    A.  42
+    B.  -42
+    C.  0
+    D.  None of the above
+
+3.  Suppose you declared:
+
+    int myMatrix[3][4] = { {0, 1, 2, 3},
+                           {4, 5, 6, 7},
+                           {8, 9, 10, 11} };
+
+    Then you did:
+
+    int * p = myMatrix[2];
+
+    What would be the value of p[1] ?
+
+    A.  3
+    B.  6
+    C.  9
+    D. None of the above
+
+4.  Suppose you instead declared:
+
+    int m0[4] = {0, 1, 2, 3};
+    int m1[4] = {4, 5, 6, 7};
+    int m2[4] = {8, 9, 10, 11};
+    int * myMatrix[3] = { m0, m1, m2 };
+
+    Assuming sizeof(int) is 4 bytes, and sizeof(int*) is 8 bytes, how
+    much memory does myMatrix *alone* occupy (that is, what is
+    sizeof(myMatrix)) ? 
+
+    A.  16 bytes
+    B.  24 bytes
+    C.  48 bytes
+    D.  72 bytes
+
+5.  Which of the following declares g to be a pointer to a function
+    which returns a double, and takes two ints as parameters?
+
+    A.  double funptr(int,int) g;
+    B.  funptr(int,int)->double g;
+    C.  double g(int, int);
+    D.  double (*g) (int,int);
+
+6.  How does a program interact with "the outside world"?
+
+    A.  It writes to/reads from the terminal's memory.
+    B.  It makes a system call.
+    C.  It sets errno appropriately.
+    D.  It calls getopt.
+
+7.  What is in argv[0] ?
+
+    A.  The name of the command shell
+    B.  The name of the program
+    C.  A pointer to main
+    D.  A pointer to the environment
+
+8.  What does fork() do?
+
+    A.  Creates a copy of the current process.
+    B.  Splits a data stream into two parts.
+    C.  Checkpoints the program state so you can restore it later.
+    D.  Executes both branches of an if statement.
+
+9.  Suppose you did
+
+    FILE * f = fopen("myfile.txt", "r");
+    [SOME TYPE] x = fgetc(f);
+
+    What is the proper type for x?
+
+    A.  char
+    B.  unsigned char
+    C.  int
+    D.  unsigned int
+    E.  size_t
+
+10. When is it ok to use gets()?
+
+    A.  When you are very sure what length string the user will type. 
+    B.  When you only pass the result to atoi().
+    C.  When you know that stdin will be redirected from a file.
+    D.  When you want someone to hack your software, your boss to fire
+        you, and everyone to know you are a terribly incompetent
+	programmer.  
