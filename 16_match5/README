@@ -1,0 +1,34 @@
+You previously wrote test cases for "match5" a contrived "card game"
+in which hands of cards are represented by sets of characters. In this
+assignment, you are going to implement the match5 game. Note that
+having test cases already is going to be a great start--both because
+you can use them to test what you wrote and because you have already
+thought about a variety of problems that can come up.
+
+As a quick reminder, here are the "rules" of match5:
+
+This program determines who wins a very simple "card game." This
+"game" is played with five "cards" per player and two players. A
+"card" in this game is an ASCII character (so 'x' 'a' '!' '7' '$'
+etc. are all valid cards). Each player has exactly five cards, and the
+player with the most matching cards wins. That is, five of a kind
+beats four of a kind, which bests three of a kind, which beats a pair,
+which beats having no matching cards. If both players have the same
+number of matching cards (e.g., both have three of a kind), the hand
+is a tie. There are no tie breakers (so one player has three of a kind
+and the other has three of a kind plus a pair, the pair does not
+matter). The values of the cards don't matter (so three 'a's and three
+'b's both tie).
+
+The correct implementation of match5 is in
+
+/usr/local/ft510/match5/correct-match5
+
+Your program should behave exactly like this correct implementation in
+all cases, including how it gives error messages.
+
+You should create a Makefile which builds your program into a binary
+called "match5". We have provided a run_tests.sh script which will
+build your program with "make" and run your tests cases on your
+program, and compare them to the correct implementation. We recommend
+you use it before grading.

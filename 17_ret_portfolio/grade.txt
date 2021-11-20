@@ -1,0 +1,77 @@
+Grading at 11/10/2021:18:55:08.663229
+For commit ID e6862afd86f7ec35f5714b4eeb564212436e7e6b
+Grading at Wed Nov 10 13:54:57 EST 2021
+retirement.c and retirement.h exist (good)
+Attempting to compile
+rm -f *~ *.o ret_portfolio
+gcc -o ret_portfolio -std=gnu99 -pedantic -Wall -Werror -ggdb3 retirement.c -lm
++-----------------------------------------------------------------------+
+Test case 1
+Wrong number of input: Success
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 2
+Cannot open file1: No such file or directory
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 3
+Cannot open file2: No such file or directory
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 4
+Wrong number of input: Success
+Your program successfully indicated a failure case
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 5
+wrong strat or end: Success
+Your program successfully indicated a failure case
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 6
+wrong start month: Success
+Your program successfully indicated a failure case
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 7
+wrong start month: Success
+Your program successfully indicated a failure case
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 8
+wrong strat or end: Success
+Your program successfully indicated a failure case
+                                                         [2/2]
++-----------------------------------------------------------------------+
+Test case 9
+Your file matched the expected output
+                                                         [35/35]
++-----------------------------------------------------------------------+
+Test case 10
+Your file matched the expected output
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 11
+Your file matched the expected output
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 12
+Your file matched the expected output
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 13
+Your file matched the expected output
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 14
+Your file matched the expected output
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 15
+Your file matched the expected output
+                                                         [5/5]
+
+Overall Grade: 100

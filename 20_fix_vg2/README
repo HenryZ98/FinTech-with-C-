@@ -1,0 +1,22 @@
+In this assignment, you are going to fix a broken program that reads
+lines from stdin, stores them, and reverses their order.
+
+This program, which is is included in vg_err.c makes a variety of
+errors--all of which valgrind will detect. Your job for this problem
+is to fix the program by making it valgrind cleanly. 
+
+You could run the program (for example):
+
+  valgrind ./vg_err
+
+type several lines of input, then send EOF with Ctrl + D.
+
+Note: If you compile with debugging symbols (-ggdb3), valgrind will
+also provide line numbers.
+
+Hint: Start from the first valgrind error. Read and understand the
+      error. It will tell you on what line of code valgrind detected
+      the problem. To understand the error and why it is occuring,
+      drawing some pictures will likely help. Fix the error,
+      re-compile, and re-run. Repeat the process until all valgrind
+      errors are gone. Don't forget that gdb may be useful as well.

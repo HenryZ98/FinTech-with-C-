@@ -1,0 +1,62 @@
+For this assignment you are going to write the program
+"count_diff_lines", which counts how many lines are different between
+two files. This program should take two command line arguments (each
+of which names a file). If the wrong number of arguments are provided,
+or either names a non-existant file, the program should print an error
+and exit. 
+
+This program should read each file and print the number of lines that
+are different between them. Note that this output should be one single
+number and a newline. The lines should be compared directly to the
+corresponding line in the other file (line 1 to line 1, line 2 to line
+2, etc). Your program should NOT try to reorder the lines to find more
+similarities. Your program should not assume the length of each line.
+
+For example, if the first file (input1.txt) contains:
+
+apple
+bear
+cat
+dog
+frog
+
+and the second file (input2.txt) contains:
+
+apple
+cat
+bear
+dog
+fish
+
+the program should print:
+
+3
+
+as three lines are different (the 2nd, 3rd, and 5th are different).
+
+If the files are of different lengths, then any missing line is
+different than the corresponding line in the longer file. For example,
+if the first file (intput1.txt) is:
+
+apple
+bear
+cat
+dog
+frog
+
+and the second file (intput3.txt) is:
+
+apple
+dog
+frog
+
+then the program should print
+
+4
+
+as lines 2, 3, 4, and 5 do not match (only apple with apple on line 1
+matches).
+
+You should profile a Makefile that compiles your program into an
+executable named "count_diff_lines". For full credit on this and any
+future assignments, your program must not leak memory.

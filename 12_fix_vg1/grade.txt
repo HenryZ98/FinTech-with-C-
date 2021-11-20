@@ -1,0 +1,9 @@
+Grading at 09/03/2021:01:43:32.232752
+For commit ID 24a7006af374ed81dd3a10442422feb637ac09cc
+Grading at Thu Sep  2 21:43:29 EDT 2021
+Attempting to compile encrypt.c
+Checking your output
+  - Your output was correct
+  - Valgrind was clean (no errors, no memory leaks)
+
+Overall Grade: PASSED

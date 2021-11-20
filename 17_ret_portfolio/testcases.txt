@@ -1,0 +1,10 @@
+#error
+sp_data.csv bond_data.csv 1971.01
+1 2 1.1 2.2
+sp_data.csv 2 1971.01 1972.01
+
+
+
+
+#success
+sp_data.csv bond_data.csv 1970.01 2019.03

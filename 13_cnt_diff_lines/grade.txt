@@ -1,0 +1,37 @@
+Grading at 09/04/2021:19:54:56.754800
+For commit ID ebbbc6918413ddd7740af6e87eed17a52b225d1a
+Grading at Sat Sep  4 15:54:42 EDT 2021
+Attempting to compile:
+make: 'count_diff_lines' is up to date.
+Test case 1
+  - Your program successfully indicated a failure case
+Test case 2
+  - Your program successfully indicated a failure case
+Test case 3
+  - Your program successfully indicated a failure case
+Test case 4
+  - Valgrind was clean (no errors, no memory leaks)
+  - Your file matched the expected output
+Test case 5
+  - Valgrind was clean (no errors, no memory leaks)
+  - Your file matched the expected output
+Test case 6
+  - Valgrind was clean (no errors, no memory leaks)
+  - Your file matched the expected output
+Test case 7
+  - Valgrind was clean (no errors, no memory leaks)
+  - Your file matched the expected output
+Test case 8
+  - Valgrind was clean (no errors, no memory leaks)
+  - Your file matched the expected output
+Test case 9
+  - Valgrind was clean (no errors, no memory leaks)
+  - Your file matched the expected output
+Test case 10
+  - Valgrind was clean (no errors, no memory leaks)
+  - Your file matched the expected output
+Test case 11
+  - Valgrind was clean (no errors, no memory leaks)
+  - Your file matched the expected output
+
+Overall Grade: A
