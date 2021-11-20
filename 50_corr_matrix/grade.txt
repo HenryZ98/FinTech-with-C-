@@ -1,0 +1,59 @@
+Grading at 11/06/2021:23:53:18.436047
+For commit ID 98f4cf5dfc488245d68787929dac325d5f7a39f4
+Grading at Sat Nov  6 19:52:30 EDT 2021
+rm -f *.o *~
+g++ -c -std=gnu++98 -Wall -Werror -pedantic -ggdb3 corr.cpp
+g++ -o correl_matrix -std=gnu++98 -Wall -Werror -pedantic corr.o
++-----------------------------------------------------------------------+
+Test case 1
+Only one argumentYour program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 2
+Only one argumentYour program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 3
+Unable to open fileYour program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 4
+Wrong number of data: Success
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 5
+Wrong first line: Success
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 6
+Your file matched the expected output
+                                                         [10/10]
++-----------------------------------------------------------------------+
+Test case 7
+Your file matched the expected output
+                                                         [10/10]
++-----------------------------------------------------------------------+
+Test case 8
+Your file matched the expected output
+                                                         [10/10]
++-----------------------------------------------------------------------+
+Test case 9
+Your file matched the expected output
+                                                         [10/10]
++-----------------------------------------------------------------------+
+Test case 10
+Your file matched the expected output
+                                                         [10/10]
++-----------------------------------------------------------------------+
+Test case 11
+Your file matched the expected output
+                                                         [10/10]
++-----------------------------------------------------------------------+
+Test case 12
+Your file matched the expected output
+                                                         [5/5]
++-----------------------------------------------------------------------+
+
+Overall Grade: 100
